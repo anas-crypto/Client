@@ -6,7 +6,7 @@ const Contact = () => {
     <div>
       {/* Banner */}
       <div className='bg-img'>
-        <img src='..//web/images/bg-image.png' alt='' />
+      <img src={require('../images/bg-image.png')} alt='image' />
         <div className='centered-A'>
           <p>About Us</p>
         </div>
@@ -61,12 +61,12 @@ const Contact = () => {
             </div>
             <div className='col-md-3'>
               <div className='about-image'>
-                <img src='..//web/images/about-img.png' alt='' />
+              <img src={require('../images/about-img.png')} alt='image' />
               </div>
             </div>
             <div className='col-md-3'>
               <div className='about-img2'>
-                <img src='..//web/images/about-img2.png' alt='' />
+              <img src={require('../images/about-img2.png')} alt='image' />
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ const Contact = () => {
             <div className='boxes1'>
               <ul>
                 <li>
-                  <img src='..//web/images/about1-img.png' alt='' />
+                <img src={require('../images/about1-img.png')} alt='image' />
                 </li>
                 <li>
                   <h3>Free Shipping</h3>
@@ -94,7 +94,7 @@ const Contact = () => {
             <div className='boxes2'>
               <ul>
                 <li>
-                  <img src='..//web/images/about2-img.png' />
+                <img src={require('../images/about2-img.png')} alt='image' />
                 </li>
                 <li>
                   <h3>30 Mintues Delivary</h3>
@@ -111,7 +111,7 @@ const Contact = () => {
             <div className='boxes3'>
               <ul>
                 <li>
-                  <img src='..//web/images/about3-img.png' />{' '}
+                <img src={require('../images/about3-img.png')} alt='image' />
                 </li>
                 <li>
                   <h3>Best Quality Garantee</h3>
@@ -127,54 +127,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      {/* Footer */}
-      <section className='footer'>
-        <div className='container'>
-          <hr />
-          <div className='footer-txt'>
-            <p>@2022 Domain. All Right Reserved.</p>
-          </div>
-          <div className='nav-footer'>
-            <div className='rows'>
-              <div className='col-md-12'>
-                <div className='items-f'>
-                  <ul>
-                    <li>
-                      <a href='#' />
-                      Home
-                    </li>
-                    <li>
-                      <a href='#' />
-                      About
-                    </li>
-                    <li>
-                      <a href='#' />
-                      Products
-                    </li>
-                    <li>
-                      <a href='#' />
-                      Contact Us
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className='font-icon'>
-              <div className='rows'>
-                <div className='col-md-4'>
-                  <i className='fa-brands fa-facebook' />
-                </div>
-                <div className='col-md-4'>
-                  <i className='fa-brands fa-twitter' />
-                </div>
-                <div className='col-md-4'>
-                  <i className='fa-brands fa-linkedin' />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+     
     </div>
   );
 };

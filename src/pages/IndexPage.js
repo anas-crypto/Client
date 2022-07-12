@@ -1,4 +1,5 @@
 import React from 'react';
+import Newsletter from '../componenets/Newsletter';
 
 const IndexPage = () => {
   return (
@@ -148,71 +149,8 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
-      {/* Subscribe Our Newsletter */}
-      <section>
-        <div className='container'>
-          <h1 className='S-txt'>Subscribe Our Newsletter</h1>
-          <p className='text-center'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
-            tempore!
-          </p>
-          <p className='text-center'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          </p>
-          <div className='input'>
-            <input type='text' placeholder='Please enter your email address' />
-            <button>Subscribe</button>
-          </div>
-        </div>
-      </section>
-      {/* Footer */}
-      <section className='footer'>
-        <div className='container'>
-          <hr />
-          <div className='footer-txt'>
-            <p>@2022 Domain. All Right Reserved.</p>
-          </div>
-          <div className='nav-footer'>
-            <div className='rows'>
-              <div className='col-md-12'>
-                <div className='items-f'>
-                  <ul>
-                    <li>
-                      <a href='#' />
-                      Home
-                    </li>
-                    <li>
-                      <a href='#' />
-                      About
-                    </li>
-                    <li>
-                      <a href='#' />
-                      Products
-                    </li>
-                    <li>
-                      <a href='#' />
-                      Contact Us
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className='font-icon'>
-              <div className='rows'>
-                <div className='col-md-4'>
-                  <i className='fa-brands fa-facebook' />
-                </div>
-                <div className='col-md-4'>
-                  <i className='fa-brands fa-twitter' />
-                </div>
-                <div className='col-md-4'>
-                  <i className='fa-brands fa-linkedin' />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    <Newsletter/>
+      
       {/* jQuery (necessary for Bootstrap's JavaScript plugins) */}
       {/* Include all compiled plugins (below), or include individual files as needed */}
       <link

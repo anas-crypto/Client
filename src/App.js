@@ -7,6 +7,7 @@ import Products from './pages/Products';
 import './componenets/css/style.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Nav from './componenets/Nav';
+import Footer from './componenets/Footer';
 function App() {
   return (
     <Fragment>
@@ -19,6 +20,7 @@ function App() {
           <Route exact path='/products' element={<Products />}></Route>
         </Routes>
       </BrowserRouter>
+      <Footer/>
     </Fragment>
   );
 }
